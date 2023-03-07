@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=BonusWorld
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ bonusWorld\ here.\r\n\ \r\n\ @author\ Jaron\ Wilson\r\n\ @version\ 2/24/23\r\n
+comment1.params=
+comment1.target=BonusWorld()
+comment1.text=\r\n\ \ \ \ 1.\ \ pixelate()\ \r\n\ \ \ \ Write\ a\ method\ that\ will\ pixelate\ an\ image\ to\ make\ it\ look\ more\ like\ it\ belongs\ on\ an\ old\ \r\n\ \ \ \ Nintendo\ system.\ \ To\ accomplish\ this,\ you\ will\ need\ to\ pause\ on\ a\ single\ pixel\ and\ change\ all\ \r\n\ \ \ \ surrounding\ pixels\ to\ the\ same\ color\ as\ the\ current\ pixel.\ \ Let's\ define\ a\ surrounding\ pixel\ to\ \r\n\ \ \ \ be\ any\ pixel\ within\ 5\ x/y\ of\ the\ current\ one\ in\ a\ box.\ \r\n\r\n\ \ \ \ So,\ create\ your\ standard\ two\ loops\ to\ go\ from\ one\ pixel\ to\ another.\ \ However,\ x++\ and\ y++\ will\ \r\n\ \ \ \ not\ be\ good\ enough,\ you\ will\ need\ to\ skip\ farther\ (by\ 10).\ \ At\ each\ (x,\ y)\ coordinate,\ now\ write\ \r\n\ \ \ \ another\ set\ of\ nested\ loops\ that\ go\ from\ (x-5\ to\ x+5)\ and\ (y-5\ to\ y+5).\ \ Change\ each\ of\ these\ \r\n\ \ \ \ pixels\ to\ the\ same\ color\ as\ the\ original\ (x,\ y).\ \r\n\r\n\ \ \ \ Tip\!\ \ You\ will\ need\ to\ write\ an\ if\ statement\ to\ check\ if\ the\ pixel\ you\ are\ looking\ at\ is\ even\ on\ the\ \r\n\ \ \ \ screen.\ \ For\ instance,\ if\ your\ current\ (x,y)\ is\ at\ (95,\ 10)\ and\ your\ screen\ has\ a\ width\ of\ 100,\ \r\n\ \ \ \ then\ (96,\ 10)\ is\ fine,\ (97,\ 10)\ is\ fine,\ (98,\ 10)\ is\ fine,\ (99,\ 10)\ is\ fine,\ but\ x+5\ at\ (100,\ 10)\ would\ \r\n\ \ \ \ crash\ when\ you\ try\ to\ change\ its\ color.\ \ \r\n\r\n\ \ \ \ 2.\ \ pixelate(\ int\ amount\ )\ \r\n\ \ \ \ This\ version\ of\ pixelate\ is\ the\ same\ as\ above,\ but\ instead\ of\ always\ \r\n\ \ \ \ pixelating\ by\ 5,\ the\ amount\ to\ pixelate\ by\ comes\ in\ as\ a\ parameter.\ \r\n\r\n\ \ \ \ 3.\ \ detectEdges()\ \r\n\ \ \ \ Compares\ pixels\ directly\ next\ to\ each\ other,\ then\ determines\ if\ the\ colors\ are\ too\ far\ different.\ \ \r\n\ \ \ \ If\ so,\ the\ pixels\ turn\ black.\ \ If\ they\ are\ similar,\ they\ turn\ white.\ \ \ \r\n\r\n\ \ \ \ Tip\!\ \ To\ compare\ colors,\ use\ the\ distance\ formula\ on\ the\ colors.\ \r\n\r\n\ \ \ \ 4.\ \ shrink()\ \r\n\ \ \ \ Makes\ a\ copy\ of\ the\ background,\ but\ much\ smaller,\ in\ one\ of\ the\ corners\ of\ the\ screen.\ \r\n
+comment2.params=
+comment2.target=void\ pixelate()
+comment3.params=amount
+comment3.target=void\ pixelate(int)
+comment4.params=
+comment4.target=void\ mirrorLeftToRight()
+comment5.params=
+comment5.target=void\ detectEdges()
+comment6.params=
+comment6.target=void\ shrink()
+comment7.params=
+comment7.target=void\ shrinkWhite()
+numComments=8
