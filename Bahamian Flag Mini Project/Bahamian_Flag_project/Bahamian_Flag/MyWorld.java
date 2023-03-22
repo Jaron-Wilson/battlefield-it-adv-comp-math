@@ -24,7 +24,7 @@ public class MyWorld extends World
         int width = 350;
         int height = getHeight()/3;
         int flagTri = getHeight()/2;
-        Color color1 = new Color(0,119,139);
+        Color color1 = Color.CYAN;
         Color color2 = Color.YELLOW;
         Color triColor = Color.BLACK;
 
