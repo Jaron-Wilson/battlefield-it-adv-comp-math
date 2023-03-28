@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Bike
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Bike\ here.\r\n\ \r\n\ @author\ Jaron\ Wilson\r\n\ @version\ 3/28/23\r\n
+comment1.params=colorOfBike
+comment1.target=Bike(java.lang.Boolean)
+comment1.text=\r\n\ \ \ \ \ \ \ \ Build\ a\ constructor\ that\ is\ sent\ a\ Boolean\ parameter\ to\ represent\ if\ the\ Bike\ is\ blue.\ \ \r\n\ \ \ \ \ \ \ \ i.\ The\ constructor\ should\ store\ this\ information\ in\ its\ permanent\ field\ variable\r\n
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ buildTrail()
+comment3.text=\r\n\ \ \ \ \ buildTrail()\ \ \r\n\ \ \ \ \ \ \ \ i.\ Takes\ in\ no\ parameters\ \r\n\ \ \ \ \ \ \ \ ii.\ Build\ a\ Trail\ object\ with\ the\ Boolean\ parameter\ of\ the\ Bike\u2019s\ current\ color\ \r\n\ \ \ \ \ \ \ \ iii.\ Ask\ the\ world\ to\ place\ the\ Trail\ on\ the\ screen\ at\ the\ same\ location\ of\ the\ Bike\r\n
+comment4.params=
+comment4.target=void\ movement()
+numComments=5
