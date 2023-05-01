@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Gym
+comment1.params=gymNumber
+comment1.target=Gym(int)
+comment2.params=
+comment2.target=int\ getNumber()
+numComments=3
